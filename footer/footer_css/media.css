@@ -1,0 +1,39 @@
+@media screen and (max-width: 960px){
+	.footer-inner{
+		border: none;
+	}
+}
+@media screen and (max-width: 700px) {
+	.about{
+	width: 269px;
+	margin-left: 15px;
+}
+.twitter{
+	width: 222px;
+	margin-left: 25px;
+}
+.contact{
+	width: 270px;
+	margin-left: 35px;
+	margin-right: 15px;
+}
+}
+@media screen and (max-width: 540px){
+		.footer-inner{
+			display: block;
+			text-align: center
+		}
+	.about{
+		display: block;
+		margin: 0 auto;
+	}
+	.twitter{
+		display: block;
+		margin: 10px auto;
+	}
+	.contact{
+		display: block;
+		margin: 10px auto 0 auto;
+		padding-bottom: 10px;
+	}
+}
