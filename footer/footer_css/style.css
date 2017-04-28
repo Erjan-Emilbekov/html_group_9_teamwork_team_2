@@ -14,6 +14,7 @@ background: #fff;
 	font-family: 'HelveticaNeueCyr';
 	line-height: 15px;
 	color:#fff;
+	text-decoration: none;
 }
 .container{
 	max-width: 960px;
@@ -32,6 +33,7 @@ footer{
 	border-right: 10px solid #fff;
 	background: #e8663c;
 	display: flex;
+	padding-bottom: 25px;
 }
 .footer-inner h4{
 	font-size: 1.7em;
