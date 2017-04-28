@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+	.menu-btn{
+		display: block !important;
+	}
+	.main-nav{display: none;
+		background: transparent;
+		position: absolute;
+		top: 60px;	
+		right: 5px;
+	}
+	.main-nav ul{
+		margin: 0;
+		padding: 3px 15px;
+		list-style: none;
+	}
+	.main-nav li{
+		display: inline-block !important;
+		padding: 5px !important;
+	}
+	.main-nav a{
+		display: block !important;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 13px !important;
+		}
+}

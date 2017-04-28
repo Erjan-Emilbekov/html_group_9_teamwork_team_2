@@ -1,0 +1,95 @@
+body { 
+font-family: Arial, sans-serif; 
+font-size: 12px; 
+line-height: 1.6; 
+color: #000; 
+background: url("../../img/background.jpg"); 
+}
+.container{
+	max-width: 960px;
+	min-width: 310px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 0 10px;
+}
+.menu-btn{	
+	width: 68px;
+	height: 70px;
+	float: right;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	display: none;
+}
+.menu-btn span{
+	width: 18px;
+	height: 2px;
+	background: #e8663c;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -1px 0 0 -9px;
+}
+.menu-btn span::before,.menu-btn span::after{
+	content: "";
+	width: 18px;
+	height: 2px;
+	background: #e8663c;
+	position: absolute;
+	left: 0;
+	transition: transform 1s;
+}
+.menu-btn span::before{
+	top: -5px;
+}
+.menu-btn span::after{
+	bottom: -5px;
+}
+.menu-btn.is-active span{
+	background: transparent;
+}
+.menu-btn.is-active span::before{
+	transform: rotate(45deg);
+	top: 0;
+} 
+.menu-btn.is-active span::after{
+	transform: rotate(-45deg);
+	bottom: 0;
+}
+
+.header1{
+	background: transparent;
+}
+.logo{
+	display: inline-block;
+	margin: 23px 0 16px;
+}
+.main-nav{
+	float: right;
+}
+.main-nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.main-nav ul li{
+	display: inline-block;
+	padding: 30px 0 22px 25px;
+}
+.main-nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #B9B9B9;
+	font-family: 'Bebas';
+	font-size: 16px ;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+}
+.main-nav li:hover a{
+	color: #E8663C;
+}
