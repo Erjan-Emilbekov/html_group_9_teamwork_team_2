@@ -1,0 +1,16 @@
+@media screen and (max-width: 960px) {
+	.flex-items {
+		width: 40%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 10px;
+	}
+}
+@media screen and (max-width:480px) {
+	.flex-items {
+		width: 90%;
+	}
+	.jumbutron p {
+		padding: 16px 5px 2px;
+	}
+}
