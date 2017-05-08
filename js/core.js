@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	// start-header
+
 	$('#menu-btn').click(function(){		
 			$('.main-nav').slideToggle(400);	
 			if ($(this).hasClass('not-active')) {
@@ -10,9 +10,8 @@ $(document).ready(function(){
 				},600)			
 			}		
 		});
-	// end-header
 
-	// start-Info-block
+
 	$('.slider-1').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -28,5 +27,13 @@ $(document).ready(function(){
 		centerMode: false,
 		focusOnSelect: true
 	});
-	// end-info-block
+
+
+	$('.tabs').tabslet({
+        mouseevent: 'click',
+        attribute: 'href',
+        animation: true
+    });
+
+
 });
