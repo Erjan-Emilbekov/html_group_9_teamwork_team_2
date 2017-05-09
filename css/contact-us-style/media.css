@@ -1,9 +1,9 @@
 @media screen and (max-width: 920px) {
 	.map-block .map {
-	width: 90%;
+	width: 70%;
 	height: auto;
-	margin: 10px auto;
 	float: none;
+    margin: 20px 0 20px 10px;
 }
 .sidebar {
 	width: 90%;
@@ -30,6 +30,11 @@
    padding: 0;
 }
 
+}
+@media screen and (max-width: 700px){
+    .flex-item{
+        padding: 0 !important;
+    }
 }
 @media screen and (max-width: 600px){
 .header-name-line{
