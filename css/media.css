@@ -103,9 +103,20 @@
 	.line-container{ 
 		border-left: none; 
 		border-right: none; 
+	}
+	.logo {
+		margin-left: 5px;
+	}
+	.slider-1 .slide-info {
+		padding: 0 0 0 48px;
+    	width: 100%;
+    	left: 0;
+    	bottom: 0;
+    	height: 100%;
 	} 
 	.slider-1 .inner h3 {
 		line-height: 25px;
+    	padding: 9% 0 0;
 	}
 	.flex-items {
 		width: 90%;
