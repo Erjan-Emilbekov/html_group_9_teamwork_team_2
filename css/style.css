@@ -384,11 +384,11 @@ body {
 	color: #fff;
 	background: #e8663c;
 }
-.flex-container {
+.tabs .flex-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-bottom: 25px;
+	padding-bottom: 26px;
 }
 .flex-items {
 	width: 220px;

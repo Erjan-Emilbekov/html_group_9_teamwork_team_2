@@ -29,6 +29,10 @@
 		padding: 0;
 		width: 67%;
 	}
+	.tabs ul li {
+		display: block;
+		padding: 5px 0;
+	}
 	.flex-item {
 		width: 90%;
 		padding: 15px 0 28px;
@@ -117,6 +121,12 @@
 	.slider-1 .inner h3 {
 		line-height: 25px;
     	padding: 9% 0 0;
+	}
+	.tabs .flex-container {
+		padding: 0;
+	}
+	.tabs .flex-items {
+		padding-bottom: 25px;
 	}
 	.flex-items {
 		width: 90%;
