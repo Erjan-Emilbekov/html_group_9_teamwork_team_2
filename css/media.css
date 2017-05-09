@@ -72,7 +72,7 @@
 		padding-bottom: 10px;
 	}
 	.menu-btn{
-		display: block ;
+		display: block !important;
 	}
 	.main-nav{
 		display: none;
@@ -82,19 +82,19 @@
 		right: 5px;
 	}
 	.main-nav ul{
-		margin: 0;
-		padding: 3px 15px;
+		margin: 0 !important;
+		padding: 3px 15px !important;
 		list-style: none;
 	}
 	.main-nav li{
 		display: inline-block ;
-		padding: 5px ;
+		padding: 5px !important;
 	}
 	.main-nav a{
 		display: block ;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 13px ;
+		font-size: 13px!important ;
 	}
 	.header-name-line{
 		margin-top: 40px;
