@@ -31,9 +31,14 @@
 }
 
 }
+@media screen and (max-width: 600px){
+.header-name-line{
+	margin-top: 40px;
+}
+}
 @media screen and (max-width: 545px){
 	.form textarea {
-    width:100%;
+    width:90%;
     height: 205px;
 }
 }

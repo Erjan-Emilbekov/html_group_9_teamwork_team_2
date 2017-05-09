@@ -62,11 +62,13 @@
 				</div>
 			</div>
 			<div class="form">
-				<input type="text" placeholder="First Name">
-				<input type="text" placeholder="Last Name">
-				<input type="email" placeholder="Email">
-				<textarea name="" cols="50" rows="10" placeholder="Message Address"></textarea>
-				<a href="#">Submit</a>
+			<form action="" id="send_form">
+				<p><input type="text" placeholder="First Name" name="name"></p>
+				<p><input type="text" placeholder="Last Name" name="lname"></p>
+				<p><input type="email" placeholder="Email" name="email"></p>
+				<textarea name="" cols="50" rows="10" placeholder="Message"></textarea>
+				<button class="form-btn">Submit</button>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -74,6 +76,7 @@
 
     <script src="vendor/jQuery/jquery-3.2.0.min.js"></script>
     <script src="vendor/Slick/slick.min.js"></script>
+    <script src="../../vendor/jqueryValidation/dist/jquery.validate.min.js"></script>
     <script src="js/core.js"></script>
 </body>
 
