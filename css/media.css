@@ -91,13 +91,10 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 13px ;
-		}
-<<<<<<< HEAD
-		.header-name-line{
-	margin-top: 40px;
-}
-}
-=======
+	}
+	.header-name-line{
+		margin-top: 40px;
+	}
 }
 @media screen and (max-width:480px) {
 	body {
@@ -117,4 +114,4 @@
 		top: 30px;
 	}
 }
->>>>>>> b1ed2e3a1c91a70bafd05a694e9842eebc2a2b30
+

@@ -10,14 +10,15 @@ body {
 	max-width: 940px;
 	margin: 0 auto;
 }
-.line-container{ 
-	border-left: 10px solid #fff; 
-	border-right: 10px solid #fff; 
-} 
 .header-name-line{
 	width: 100%;
 	background: #f2b19c;
 }
+.line-container{ 
+    border-left: 11px solid #fff;
+    border-right: 11px solid #fff;
+    min-height: 60px;
+} 
 .header-name-line-container{
 	max-width: 940px;
 	min-width: 302px;
@@ -121,6 +122,9 @@ body {
 .main-nav li:hover a{
 	color: #E8663C;
 }
+.slider-1 {
+	margin-top: -60px;
+}
 .slider-1 img {
 	width: 100%;
 	height: auto;
@@ -130,18 +134,19 @@ body {
 }
 .slider-1 .inner h3 {
 	font-family: 'Bebas';
-	font-size: 18px;
-	font-weight: bold;
-	color: #e7e7e7;
-	margin: 0;
-	text-transform: uppercase;
-	line-height: 41px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 7px 0 0;
 }
 .slider-1 .inner p {
 	font-size: 12px;
-	font-family: 'HelveticaNeueCyr';
-	margin: 0;
-	padding: 7px 0 21px;
+    font-family: 'HelveticaNeueCyr';
+    line-height: 14px;
+    margin: 0;
+    padding: 16px 0 23px;
 }
 .slick-slide {
 	outline: none;
@@ -279,7 +284,7 @@ body {
 	background: #e8663c;
 }
 .recent-work {
-	padding: 28px 0 ;
+	padding: 28px 0 47px;
 	position: relative;
 	font-family: 'Bebas';
 }
