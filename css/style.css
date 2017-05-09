@@ -291,9 +291,12 @@ body {
 	background: #e8663c;
 }
 .recent-work {
-	padding: 28px 0 47px;
+    padding: 2px 0 11px;
 	position: relative;
 	font-family: 'Bebas';
+}
+.inner-recent-work {
+	padding: 28px 0 22px;
 }
 .recent-work h2 {
 	font-size: 18px;
@@ -302,9 +305,12 @@ body {
 	display: block;
 	position: relative;
 	background: url(../img/patter-fortitle-recent-work.png) 0 0;
-	margin: 18px 0 25px;
+	margin: 0 0 25px;
 	padding: 0;
 	line-height: 17px;
+}
+.inner-recent-work h2 {
+	margin-top: 16px;
 }
 .recent-work h2 span {
 	width: 133px;
