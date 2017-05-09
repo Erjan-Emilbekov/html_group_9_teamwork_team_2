@@ -8,13 +8,7 @@ $(document).ready(function(){
 				setTimeout(function(){
 					$('.is-active').addClass('not-active').removeClass('is-active')
 				},600)			
-			}
-			$('.tabs').tabslet({
-        mouseevent: 'click',
-        attribute: 'href',
-        animation: true
-    });
-		
+			}		
 		});
 
 
@@ -73,3 +67,10 @@ $(document).ready(function() {
 	});
 
 });
+
+
+$('.tabs').tabslet({
+        mouseevent: 'click',
+        attribute: 'href',
+        animation: true
+    });
