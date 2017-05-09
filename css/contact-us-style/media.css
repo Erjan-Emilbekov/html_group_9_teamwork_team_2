@@ -1,14 +1,14 @@
 @media screen and (max-width: 920px) {
-	.map-block .map {
-	width: 70%;
-	height: auto;
-	float: none;
+    .map-block .map {
+    width: 70%;
+    height: auto;
+    float: none;
     margin: 20px 0 20px 10px;
 }
 .sidebar {
-	width: 90%;
-	margin: 0 auto;
-	float: none;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
 }
 .inner-sidebar .flex-item img {
     width: 100%;
@@ -38,11 +38,11 @@
 }
 @media screen and (max-width: 600px){
 .header-name-line{
-	margin-top: 40px;
+    margin-top: 40px;
 }
 }
 @media screen and (max-width: 545px){
-	.form textarea {
+    .form textarea {
     width:90%;
     height: 205px;
 }
