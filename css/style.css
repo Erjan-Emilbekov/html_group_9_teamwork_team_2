@@ -131,6 +131,7 @@ body {
 }
 .slider-1 button {
 	outline: none;
+	cursor: pointer;
 }
 .slider-1 .inner h3 {
 	font-family: 'Bebas';
